@@ -1,0 +1,1 @@
+/home/monqyclouds/Rust/projects/restaurant/target/debug/librestaurant.rlib: /home/monqyclouds/Rust/projects/restaurant/src/front_of_house/hosting.rs /home/monqyclouds/Rust/projects/restaurant/src/front_of_house.rs /home/monqyclouds/Rust/projects/restaurant/src/lib.rs
