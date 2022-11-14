@@ -1,4 +1,4 @@
-use aggregator::{Summary, Tweet, NewsArticle};
+use aggregator::{NewsArticle, Summary, Tweet};
 
 struct Point<T, U> {
     // values could be of the same or different types
@@ -29,7 +29,7 @@ fn main() {
     let _integer = Point { x: 5, y: 10 };
     let _float = Point { x: 2.0, y: 8.0 };
     let mixed = Point { x: 3, y: 9.0 };
-    let mixed2 = Point {x: "hello", y: 'c'};
+    let mixed2 = Point { x: "hello", y: 'c' };
 
     println!("mixed.x = {}", mixed.x());
 
@@ -49,12 +49,12 @@ fn main() {
     /////////////////////////
     // Implementing Traits //
     /////////////////////////
-    
+
     let tweet = Tweet {
         username: String::from("horse_ebooks"),
         content: String::from("of course, as you probably already know, people"),
         reply: false,
-        retweet: false
+        retweet: false,
     };
 
     println!("1 new tweet: {}", tweet.summarize());

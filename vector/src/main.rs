@@ -11,7 +11,7 @@ fn main() {
     v.push(6);
     v.push(7);
 
-    let v2 = vec![2,3,1,3,1];
+    let v2 = vec![2, 3, 1, 3, 1];
 
     let _second = &v2[1];
 
@@ -29,6 +29,4 @@ fn main() {
         SpreadsheetCell::Float(10.2),
         SpreadsheetCell::Text(String::from("Nice")),
     ];
-
-
 }
